@@ -70,6 +70,10 @@ namespace DesigningandBuildingClasses
                     alpha = 0;
             }
         }
-
+        
+        public void GrayScale()             //method that averages red, green, and blue 
+        {
+            int avg = (red + green + blue) / 3;
+        }
     }
 }
