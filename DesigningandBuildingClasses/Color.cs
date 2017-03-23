@@ -15,13 +15,13 @@ namespace DesigningandBuildingClasses
         private int alpha;
 
         //constructor that takes all instance variables
-        Color(int red, int green, int blue, int alpha)
+        public Color(int red, int green, int blue, int alpha)
         {
 
         }
 
         //Constructor that defaults alpha to opaque
-        Color(int red, int green, int blue)
+       public Color(int red, int green, int blue)
         {
             alpha = 255;
         }

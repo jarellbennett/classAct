@@ -16,9 +16,22 @@ namespace DesigningandBuildingClasses
         private int alpha;
 
 
-        Ball(int size, int red, int green, int blue, int alpha)           //constructure that takes ball size and color
+        public Ball(int size, int red, int green, int blue, int alpha)           //constructure that takes ball size and color
         {
+            this.size = size;
+            this.red = red;
+            this.green = green;
+            this.blue = blue;
+            this.alpha = alpha;
+        }
 
+        public Ball(int size, int red, int green, int blue)
+        {
+            this.size = size;
+            this.red = red;
+            this.green = green;
+            this.blue = blue;
+            alpha = 255;
         }
 
         public void Pop()                 //method that pops ball changes size to 0
